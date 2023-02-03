@@ -5,11 +5,11 @@ execute if score 隨機 temp matches 3 run clone 137 13 121 139 11 119 534 56 11
 execute if score 隨機 temp matches 4 run clone 139 13 125 137 11 123 541 50 218
 execute if score 隨機 temp matches 5 run clone 137 13 121 139 11 119 501 56 141
 
-execute if score 隨機 temp matches 1 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"停車場旁的商店\",\"bold\":true},\"\\n\",{\"text\":\"座標：458 50 0\",\"bold\":true}]"],title:"搭檔裝置位置",author:"遊戲總部",tag:m16}
-execute if score 隨機 temp matches 2 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"藍區二樓 樓梯旁\",\"bold\":true},\"\\n\",{\"text\":\"座標：573 56 229\",\"bold\":true}]"],title:"搭檔裝置位置",author:"遊戲總部",tag:m16}
-execute if score 隨機 temp matches 3 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"紫區二樓 電梯旁\",\"bold\":true},\"\\n\",{\"text\":\"座標：534 56 113\",\"bold\":true}]"],title:"搭檔裝置位置",author:"遊戲總部",tag:m16}
-execute if score 隨機 temp matches 4 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"中央小廣場\",\"bold\":true},\"\\n\",{\"text\":\"座標：541 50 218\",\"bold\":true}]"],title:"搭檔裝置位置",author:"遊戲總部",tag:m16}
-execute if score 隨機 temp matches 5 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"粉區二樓 展示櫃旁\",\"bold\":true},\"\\n\",{\"text\":\"座標：501 56 141\",\"bold\":true}]"],title:"搭檔裝置位置",author:"遊戲總部",tag:m16}
+execute if score 隨機 temp matches 1 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"停車場旁的商店\",\"bold\":true},\"\\n\",{\"text\":\"座標：458 50 0\",\"bold\":true}]"],title:"搭檔裝置位置",author:"游戏总部",tag:m16}
+execute if score 隨機 temp matches 2 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"藍區二樓 樓梯旁\",\"bold\":true},\"\\n\",{\"text\":\"座標：573 56 229\",\"bold\":true}]"],title:"搭檔裝置位置",author:"游戏总部",tag:m16}
+execute if score 隨機 temp matches 3 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"紫區二樓 電梯旁\",\"bold\":true},\"\\n\",{\"text\":\"座標：534 56 113\",\"bold\":true}]"],title:"搭檔裝置位置",author:"游戏总部",tag:m16}
+execute if score 隨機 temp matches 4 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"中央小廣場\",\"bold\":true},\"\\n\",{\"text\":\"座標：541 50 218\",\"bold\":true}]"],title:"搭檔裝置位置",author:"游戏总部",tag:m16}
+execute if score 隨機 temp matches 5 run give @a[team=!hunter] written_book{pages:["[\"\",{\"text\":\"粉區二樓 展示櫃旁\",\"bold\":true},\"\\n\",{\"text\":\"座標：501 56 141\",\"bold\":true}]"],title:"搭檔裝置位置",author:"游戏总部",tag:m16}
 
 function game:kill_area_effect_cloud
 scoreboard players remove 抽取 temp 1

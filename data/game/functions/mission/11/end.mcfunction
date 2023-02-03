@@ -7,9 +7,9 @@ scoreboard players set m11_tick temp 0
 function game:mission/11/reset
 
 #投票結果
-execute if score 單價加倍 vote > 單價減半 vote run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"text":"投票結果是  "},{"text":"單價加倍但"},{"text":"獵人增加1具","color":"red"}]
-execute if score 單價加倍 vote < 單價減半 vote run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"text":"投票結果是  "},{"text":"單價減半但"},{"text":"獵人減少1具","color":"red"}]
-execute if score 單價加倍 vote = 單價減半 vote run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"text":"投票結果是 "},{"text":"出現了平票所以"},{"text":"維持原狀","color":"red"}]
+execute if score 單價加倍 vote > 單價減半 vote run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"text":"投票結果是  "},{"text":"單價加倍但"},{"text":"獵人增加1具","color":"red"}]
+execute if score 單價加倍 vote < 單價減半 vote run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"text":"投票結果是  "},{"text":"單價減半但"},{"text":"獵人減少1具","color":"red"}]
+execute if score 單價加倍 vote = 單價減半 vote run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"text":"投票結果是 "},{"text":"出現了平票所以"},{"text":"維持原狀","color":"red"}]
 
 execute if score 單價加倍 vote > 單價減半 vote run tag @r[team=out,limit=1] add h
 execute if score 單價加倍 vote > 單價減半 vote if score 地圖 temp matches 1 run tp @a[tag=h] 29.5 50.0 58.5 0 0

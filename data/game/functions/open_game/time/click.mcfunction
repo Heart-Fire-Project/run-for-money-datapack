@@ -8,6 +8,6 @@ execute if score 體內 temp matches 0 run scoreboard players set 體內關閉 t
 execute if score 體內 temp matches 1 run scoreboard players set 體內 temp 2
 execute if score 體內 temp matches 0 run scoreboard players set 體內 temp 1
 
-execute if score 體內 temp matches 2 run tellraw @a ["",{"text":"體內計時","bold":true,"color":"gold"},"結果為．．．．"]
+execute if score 體內 temp matches 2 run tellraw @a ["",{"text":"体内计时","bold":true,"color":"gold"},"結果為．．．．"]
 execute if score 體內 temp matches 2 run schedule function game:open_game/time/look 5s
 execute if score 體內 temp matches 2 run scoreboard players set 體內 temp 3

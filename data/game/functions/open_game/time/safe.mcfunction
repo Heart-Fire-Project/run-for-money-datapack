@@ -1,5 +1,5 @@
 scoreboard players remove 成功人數 temp 1
-execute if score 成功人數 temp matches 1.. run tellraw @a ["",{"text":"體內計時","bold":true,"color":"gold"},"結果為成功","\n","目前距離成功 人數還有",{"score":{"name":"成功人數","objective":"temp"}},"人"]
+execute if score 成功人數 temp matches 1.. run tellraw @a ["",{"text":"体内计时","bold":true,"color":"gold"},"結果為成功","\n","目前距離成功 人數還有",{"score":{"name":"成功人數","objective":"temp"}},"人"]
 execute if score 成功人數 temp matches 1.. run function game:open_game/time/tp
 
 execute if score 成功人數 temp matches 0 run tag @a remove NO

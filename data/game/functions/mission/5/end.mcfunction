@@ -1,4 +1,4 @@
-clear @a written_book{title:"任務"}
+clear @a written_book{title:"任务"}
 kill @e[type=minecraft:item]
 bossbar set minecraft:time players
 

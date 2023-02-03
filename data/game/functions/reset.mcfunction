@@ -1,4 +1,4 @@
-schedule clear function game:time/remove1s
+schedule clear game:time/remove1s
 clear @a
 gamemode adventure @a
 tp @a 100.5 11.00 100.5
@@ -46,9 +46,9 @@ team modify out nametagVisibility never
 team modify out deathMessageVisibility never
 team modify out friendlyFire false
 team remove circular
-team add circular "通報部隊"
+team add circular "通报部队"
 team modify circular color yellow
-team modify circular prefix "[通報部隊]"
+team modify circular prefix "[通报部队]"
 team modify circular nametagVisibility never
 team modify circular deathMessageVisibility never
 team modify circular friendlyFire false
@@ -60,7 +60,7 @@ team modify surrender nametagVisibility never
 team modify surrender deathMessageVisibility never
 team modify surrender friendlyFire false
 
-team join circular1 通報部隊
+team join circular1 通报部队
 team join hunter1 獵人數量
 team join run1 逃亡人數
 team join out1 確保人數

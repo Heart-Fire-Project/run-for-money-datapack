@@ -10,7 +10,7 @@ execute if score 地圖 temp matches 2 run scoreboard players set 抽取 temp 3
 execute if score 地圖 temp matches 3 run scoreboard players set 抽取 temp 4
 scoreboard players operation 紀錄 temp = 抽取 temp
 function game:mission/5_1/give
-scoreboard players remove 任務數 time 1
+scoreboard players remove 任務数 time 1
 function game:mission/summon10
 execute if score 地圖 temp matches 1 if score 逃亡人數 new matches ..4 run function game:mission/5/map/1/random
 execute if score 地圖 temp matches 2 if score 逃亡人數 new matches ..5 run function game:mission/5/map/2/random

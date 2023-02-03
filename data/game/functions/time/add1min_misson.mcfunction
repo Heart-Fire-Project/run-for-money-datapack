@@ -1,4 +1,4 @@
-scoreboard players add 任務時間 time 1
+scoreboard players add 任務时间 time 1
 function game:setbook/update_misson
 clear @a written_book{title:"游戏设置"}
 function game:setbook/book1

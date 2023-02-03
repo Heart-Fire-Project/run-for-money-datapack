@@ -1,4 +1,4 @@
-clear @a written_book{title:"任務"}
+clear @a written_book{title:"任务"}
 clear @a written_book{title:"裝置位置"}
 kill @e[type=minecraft:item]
 bossbar set minecraft:time players
@@ -18,8 +18,8 @@ tag @a[tag=g10] add g
 tag @a[team=out] remove g
 tag @a[team=surrender] remove g
 
-execute unless entity @a[tag=g] run tellraw @a[team=!hunter] ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"text":"全體任務成功","bold":true,"color":"blue"}]
-execute if entity @a[tag=g] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@a[tag=g,team=run]","bold":true},{"text":"未能及時完成認證 遭到","bold":true},{"text":"強制發光","bold":true,"color":"red"}]
+execute unless entity @a[tag=g] run tellraw @a[team=!hunter] ["",{"text":"[简讯]","bold":true,"color":"gold"},{"text":"全體任務成功","bold":true,"color":"blue"}]
+execute if entity @a[tag=g] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@a[tag=g,team=run]","bold":true},{"text":"未能及時完成認證 遭到","bold":true},{"text":"強制發光","bold":true,"color":"red"}]
 
 tag @a remove g1
 tag @a remove g2
