@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": {
+      "text": "欢迎来到 全员逃走中",
+	  "color": "aqua"
+    },
+    "description": {
+      "text": "在这里祝你们游玩愉快",
+	  "color": "gold"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+	"background": "minecraft:textures/block/stone.png"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick"
+      }
+    },
+  "rewards": {
+    "function": "game:welcome"
+  }
+}

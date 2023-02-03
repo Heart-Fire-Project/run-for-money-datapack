@@ -1,0 +1,3 @@
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:'[{"text":"阻止獎金歸零重製"}]'}}}]}] run scoreboard players set 歸零 temp 0
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:'[{"text":"阻止獎金歸零重製"}]'}}}]}] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},"成功阻止 獎金重新計算"]
+execute if entity @a[nbt={Inventory:[{tag:{display:{Name:'[{"text":"阻止獎金歸零重製"}]'}}}]}] run function game:mission/15/end

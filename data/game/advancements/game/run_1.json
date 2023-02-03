@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": {
+      "text": "逃走成功",
+	  "color": "gold"
+    },
+    "description": {
+      "text": "活到游戏结束",
+	  "color": "gold"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent":"game:game/run",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+      }
+    }
+  },
+  "rewards": {
+  }
+}

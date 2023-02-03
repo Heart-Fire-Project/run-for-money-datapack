@@ -1,0 +1,2 @@
+execute positioned ~ ~1 ~1 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] run scoreboard players add 時間恢復條 temp 1
+execute positioned ~ ~1 ~1 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] run setblock ~ ~ ~ minecraft:stone_pressure_plate[powered=false]

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_chestplate",
+	  "nbt":"{display:{color:65280}}"
+    },
+    "title": {
+      "text": "我是逃走者",
+	  "color": "green"
+    },
+    "description": {
+      "text": "时间结束时\n在逃走方",
+	  "color": "gold"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent":"game:game/game",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+      }
+    }
+  },
+  "rewards": {
+  }
+}

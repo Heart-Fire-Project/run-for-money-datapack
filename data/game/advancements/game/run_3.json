@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    },
+    "title": {
+      "text": "自首成功",
+	  "color": "yellow"
+    },
+    "description": {
+      "text": "遊戲過程中\n提前自首",
+	  "color": "gold"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent":"game:game/run",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+      }
+    }
+  },
+  "rewards": {
+  }
+}

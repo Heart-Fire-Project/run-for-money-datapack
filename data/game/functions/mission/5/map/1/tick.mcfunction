@@ -1,0 +1,10 @@
+execute if block 169 70 82 minecraft:lever[powered=true] run scoreboard players set 獵人箱1 temp -1
+execute if block 99 64 132 minecraft:lever[powered=true] run scoreboard players set 獵人箱2 temp -1
+execute if block 127 58 24 minecraft:lever[powered=true] run scoreboard players set 獵人箱3 temp -1
+execute if block 97 52 24 minecraft:lever[powered=true] run scoreboard players set 獵人箱4 temp -1
+execute if block 129 52 82 minecraft:lever[powered=true] run scoreboard players set 獵人箱5 temp -1
+execute if block 30 54 170 minecraft:lever[powered=true] run scoreboard players set 獵人箱6 temp -1
+execute if block 77 52 179 minecraft:lever[powered=true] run scoreboard players set 獵人箱7 temp -1
+execute if block 91 52 191 minecraft:lever[powered=true] run scoreboard players set 獵人箱8 temp -1
+execute if block 160 52 197 minecraft:lever[powered=true] run scoreboard players set 獵人箱9 temp -1
+execute if block 197 52 66 minecraft:lever[powered=true] run scoreboard players set 獵人箱10 temp -1

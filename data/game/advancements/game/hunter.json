@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_chestplate",
+	  "nbt":"{display:{color:0}}"
+    },
+    "title": {
+      "text": "我是猎人",
+	  "color": "black"
+    },
+    "description": {
+      "text": "时间结束时\n在猎人方",
+	  "color": "gold"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent":"game:game/game",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+      }
+    }
+  },
+  "rewards": {
+  }
+}

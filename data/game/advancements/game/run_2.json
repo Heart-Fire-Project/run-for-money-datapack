@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "text": "逃走失敗",
+	  "color": "red"
+    },
+    "description": {
+      "text": "遊戲結束時\n是確保者",
+	  "color": "gold"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent":"game:game/run",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+      }
+    }
+  },
+  "rewards": {
+  }
+}

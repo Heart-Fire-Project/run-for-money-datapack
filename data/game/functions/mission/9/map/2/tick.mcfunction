@@ -1,0 +1,10 @@
+execute positioned 417 50 247 run function game:mission/9/tick_y
+execute positioned 542 50 204 run function game:mission/9/tick_-x
+execute positioned 572 50 183 run function game:mission/9/tick_y
+execute positioned 572 56 183 run function game:mission/9/tick_y
+execute positioned 479 50 231 run function game:mission/9/tick_-y
+execute positioned 479 56 231 run function game:mission/9/tick_-y
+execute positioned 535 50 102 run function game:mission/9/tick_x
+execute positioned 535 56 102 run function game:mission/9/tick_x
+execute positioned 435 56 279 run function game:mission/9/tick_x
+execute positioned 483 56 136 run function game:mission/9/tick_-x
