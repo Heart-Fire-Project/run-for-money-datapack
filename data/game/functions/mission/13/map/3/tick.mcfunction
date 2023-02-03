@@ -1,31 +1,31 @@
-execute positioned 44 51 229 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 44 51 229 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 44 51 229 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活1 temp 1
 execute positioned 44 51 229 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
-execute positioned 188 51 232 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 188 51 232 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 188 51 232 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活2 temp 1
 execute positioned 188 51 232 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
-execute positioned 156 51 307 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 156 51 307 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 156 51 307 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活3 temp 1
 execute positioned 156 51 307 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
-execute positioned 261 51 362 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 261 51 362 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 261 51 362 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活4 temp 1
 execute positioned 261 51 362 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
-execute positioned 344 51 302 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 344 51 302 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 344 51 302 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活5 temp 1
 execute positioned 344 51 302 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
-execute positioned 365 54 390 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 365 54 390 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 365 54 390 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活6 temp 1
 execute positioned 365 54 390 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
-execute positioned 236 51 102 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 236 51 102 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 236 51 102 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活7 temp 1
 execute positioned 236 51 102 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
-execute positioned 337 51 54 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 337 51 54 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 337 51 54 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活8 temp 1
 execute positioned 337 51 54 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
-execute positioned 325 51 164 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 325 51 164 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 325 51 164 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活9 temp 1
 execute positioned 325 51 164 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
-execute positioned 387 51 45 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
+execute positioned 387 51 45 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":" 成功復活","color":"dark_green"}]
 execute positioned 387 51 45 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run scoreboard players remove 復活10 temp 1
 execute positioned 387 51 45 if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] as @p[distance=..1,team=out] run team join run @s
 

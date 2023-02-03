@@ -1,6 +1,6 @@
 tag @a remove NO
 setblock ~ ~2 ~ air
-tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},{"text":"20秒後放出獵人","bold":true,"color":"dark_red"}]
+tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},{"text":"20秒后放出獵人","bold":true,"color":"dark_red"}]
 effect give @a[team=hunter] minecraft:blindness 15 255
 effect give @a[team=hunter] minecraft:night_vision 15 255
 execute if score 地圖 temp matches 1 run fill 25 53 28 33 50 60 air replace minecraft:barrier

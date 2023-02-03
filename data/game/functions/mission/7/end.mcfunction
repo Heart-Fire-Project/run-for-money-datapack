@@ -7,5 +7,5 @@ execute if score 地圖 temp matches 3 run tp @a[team=circular] 355.0 51.0 305.0
 clear @a[team=circular]
 scoreboard players set m7_tick temp 0
 team join out @a[team=circular]
-tellraw @a ["",{"text":"[訊息]","bold":true,"color":"gold"},{"text":"任務成功 通報部隊消失了","color":"dark_green"}]
+tellraw @a ["",{"text":"[訊息]","bold":true,"color":"gold"},{"text":"任务成功 通报部队消失了","color":"dark_green"}]
 function game:mission/7/reset

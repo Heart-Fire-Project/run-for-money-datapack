@@ -42,5 +42,5 @@ execute if score 地圖 temp matches 2 if score 逃亡人數 new matches 6.. run
 execute if score 地圖 temp matches 3 if score 逃亡人數 new matches 7.. run scoreboard players set m5_1_tick temp 1
 
 scoreboard players set 任務開始 temp 1
-scoreboard players remove 任務數 time 1
+scoreboard players remove 任務数 time 1
 scoreboard players remove 任5 temp 1

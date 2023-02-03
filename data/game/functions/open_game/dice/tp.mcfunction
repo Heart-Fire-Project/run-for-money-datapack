@@ -5,7 +5,7 @@ tag @a[scores={Dice=2}] remove NO
 scoreboard players reset @a Dice
 execute unless entity @a[tag=NO] run tag @a[team=run] add NO
 execute if score 獵人箱步數 temp matches 1.. as @r[tag=NO] run function game:open_game/dice/r1
-execute if score 獵人箱步數 temp matches 0 run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},"開場遊戲成功",{"text":" 獵人在30秒後放出","color":"red"}]
+execute if score 獵人箱步數 temp matches 0 run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},"開場遊戲成功",{"text":" 獵人在30秒后放出","color":"red"}]
 execute if score 獵人箱步數 temp matches 0 run tag @a remove NO
 execute if score 獵人箱步數 temp matches 0 if score 地圖 temp matches 1 run fill 25 53 28 33 50 60 air replace minecraft:barrier
 execute if score 獵人箱步數 temp matches 0 if score 地圖 temp matches 2 run fill 421 53 213 413 50 245 air replace minecraft:barrier

@@ -15,7 +15,7 @@ execute if score 地圖 temp matches 3 run scoreboard players set 剩餘 temp 6
 scoreboard players operation 記通報 temp = 通報 temp
 scoreboard players operation 紀錄 temp = 抽取 temp
 function game:mission/7/give
-scoreboard players remove 任務數 time 1
+scoreboard players remove 任務数 time 1
 function game:mission/summon10
 execute if score 地圖 temp matches 1 run function game:mission/7/map/1/random
 execute if score 地圖 temp matches 2 run function game:mission/7/map/2/random

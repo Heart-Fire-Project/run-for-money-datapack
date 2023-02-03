@@ -2,7 +2,7 @@ execute store result bossbar minecraft:time max run scoreboard players get 時�
 execute store result bossbar minecraft:time value run scoreboard players get 時限代入 time
 execute store result score 任務時限 time run scoreboard players get 時限代入 time
 scoreboard players add 任務時限 time 1
-scoreboard players remove 任務數 time 1
+scoreboard players remove 任務数 time 1
 bossbar set minecraft:time color yellow
 
 execute if score 地圖 temp matches 1 run scoreboard players set 抽取 temp 2

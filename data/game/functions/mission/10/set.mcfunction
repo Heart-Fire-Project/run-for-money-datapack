@@ -24,7 +24,7 @@ bossbar set minecraft:time players @a[team=!hunter]
 bossbar set minecraft:device players @a[team=!hunter]
 
 function game:mission/10/give
-scoreboard players remove 任務數 time 1
+scoreboard players remove 任務数 time 1
 function game:mission/summon10
 execute if score 地圖 temp matches 1 run function game:mission/10/map/1/random
 execute if score 地圖 temp matches 2 run function game:mission/10/map/2/random

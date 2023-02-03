@@ -9,7 +9,7 @@ execute if score 地圖 temp matches 2 if score 人數條件偵測 run matches .
 execute if score 地圖 temp matches 3 if score 人數條件偵測 run matches ..3 run kill @e[type=minecraft:area_effect_cloud,scores={temp=7}]
 execute if score m7_tick temp matches 1 run kill @e[type=minecraft:area_effect_cloud,scores={temp=7}]
 execute unless score 地圖 temp matches 1 run kill @e[type=minecraft:area_effect_cloud,scores={temp=8}]
-execute if score 任務數量 new matches 2.. run kill @e[type=minecraft:area_effect_cloud,scores={temp=8}]
+execute if score 任務数量 new matches 2.. run kill @e[type=minecraft:area_effect_cloud,scores={temp=8}]
 execute if score 地圖 temp matches 1 if score 確保人數 new matches ..3 run kill @e[type=minecraft:area_effect_cloud,scores={temp=10}]
 execute if score 地圖 temp matches 2 if score 確保人數 new matches ..4 run kill @e[type=minecraft:area_effect_cloud,scores={temp=10}]
 execute if score 地圖 temp matches 3 if score 確保人數 new matches ..5 run kill @e[type=minecraft:area_effect_cloud,scores={temp=10}]
@@ -24,9 +24,9 @@ execute if score 地圖 temp matches 3 if score 確保人數 new matches ..4 run
 execute if score 地圖 temp matches 1 if score 逃亡人數 new matches ..4 run kill @e[type=minecraft:area_effect_cloud,scores={temp=16}]
 execute if score 地圖 temp matches 2 if score 逃亡人數 new matches ..6 run kill @e[type=minecraft:area_effect_cloud,scores={temp=16}]
 execute if score 地圖 temp matches 3 if score 逃亡人數 new matches ..8 run kill @e[type=minecraft:area_effect_cloud,scores={temp=16}]
-execute if score 地圖 temp matches 1 if score 任務數量 new matches ..3 run kill @e[type=minecraft:area_effect_cloud,scores={temp=16}]
-execute if score 地圖 temp matches 2 if score 任務數量 new matches ..3 run kill @e[type=minecraft:area_effect_cloud,scores={temp=16}]
-execute if score 地圖 temp matches 3 if score 任務數量 new matches ..3 run kill @e[type=minecraft:area_effect_cloud,scores={temp=16}]
+execute if score 地圖 temp matches 1 if score 任務数量 new matches ..3 run kill @e[type=minecraft:area_effect_cloud,scores={temp=16}]
+execute if score 地圖 temp matches 2 if score 任務数量 new matches ..3 run kill @e[type=minecraft:area_effect_cloud,scores={temp=16}]
+execute if score 地圖 temp matches 3 if score 任務数量 new matches ..3 run kill @e[type=minecraft:area_effect_cloud,scores={temp=16}]
 execute unless entity @e[type=minecraft:area_effect_cloud] run function game:mission/summon/compulsory
 scoreboard players operation 任務 temp = @e[type=minecraft:area_effect_cloud,limit=1,sort=random] temp
 kill @e[type=minecraft:area_effect_cloud]

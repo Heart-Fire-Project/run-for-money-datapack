@@ -24,7 +24,7 @@ execute if score 地圖 temp matches 3 run tp @a[team=hunter] 357.5 50.00 317.0 
 execute if score 地圖 temp matches 3 run spawnpoint @a[team=run] 354 50 304
 execute if score 地圖 temp matches 3 run spawnpoint @a[team=hunter] 357 49 344
 
-#開場遊戲 0(抽鍊條) 1(20秒逃跑) 2(擲骰子) 3(體內計時)
+#開場遊戲 0(抽鍊條) 1(20秒逃跑) 2(掷骰子) 3(体内计时)
 tag @a[team=run] add NO
 execute if score 地圖 temp matches 1 run function game:open_game/map1
 execute if score 地圖 temp matches 2 run function game:open_game/map2
@@ -35,7 +35,7 @@ scoreboard players reset @a die
 scoreboard players reset @a kill
 
 scoreboard players operation 給加 temp = 加速 temp
-scoreboard players operation 給隱 temp = 隱形 temp
+scoreboard players operation 給隱 temp = 隐形 temp
 scoreboard players operation 給網 temp = 網子 temp
 execute if score 初始道具 temp matches 1 if score 給加 temp matches 1.. run function game:setbook/item/give_feather
 execute if score 初始道具 temp matches 1 if score 給隱 temp matches 1.. run function game:setbook/item/give_bone
@@ -63,8 +63,8 @@ scoreboard players operation 任14 temp = 任務14 temp
 scoreboard players operation 任15 temp = 任務15 temp
 scoreboard players operation 任16 temp = 任務16 temp
 scoreboard players operation 任18 temp = 任務18 temp
-scoreboard players operation 時限代入 time = 任務時間 time
+scoreboard players operation 時限代入 time = 任務时间 time
 scoreboard players operation 時限代入 time *= D60 temp
-scoreboard players operation 時限代入-1 time = 任務時間 time
+scoreboard players operation 時限代入-1 time = 任務时间 time
 scoreboard players operation 時限代入-1 time *= D60 temp
 scoreboard players remove 時限代入-1 time 60

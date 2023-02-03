@@ -1,4 +1,4 @@
-clear @a written_book{title:"任務"}
+clear @a written_book{title:"任务"}
 clear @a written_book{title:"裝置位置"}
 kill @e[type=minecraft:item]
 bossbar set minecraft:time players
@@ -17,10 +17,10 @@ tag @a[team=out] remove out
 tag @a[team=surrender] remove out
 
 
-execute unless entity @a[team=run,tag=out] run tellraw @a[team=!hunter] ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"text":"全體任務成功","bold":true,"color":"blue"}]
+execute unless entity @a[team=run,tag=out] run tellraw @a[team=!hunter] ["",{"text":"[简讯]","bold":true,"color":"gold"},{"text":"全体任務成功","bold":true,"color":"blue"}]
 team join out @a[tag=out]
 execute store result score 逃亡人數 new run team list run
-execute if entity @a[tag=out] run tellraw @a ["",{"text":"[簡訊]","bold":true,"color":"gold"},{"selector":"@a[tag=out]","bold":true},{"text":"未能及時完成認證 遭到","bold":true},{"text":"強制淘汰","bold":true,"color":"red"},{"text":"\n"},{"text":"剩餘"},{"score":{"name":"逃亡人數","objective":"new"},"color":"green"},{"text":"人"}]
+execute if entity @a[tag=out] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@a[tag=out]","bold":true},{"text":"未能及時完成認證 遭到","bold":true},{"text":"強制淘汰","bold":true,"color":"red"},{"text":"\n"},{"text":"剩餘"},{"score":{"name":"逃亡人數","objective":"new"},"color":"green"},{"text":"人"}]
 clear @a[tag=out]
 execute if score 地圖 temp matches 1 run tp @a[tag=out] 50 51 3
 execute if score 地圖 temp matches 2 run tp @a[tag=out] 500 51 4
