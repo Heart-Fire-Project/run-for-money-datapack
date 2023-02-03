@@ -17,15 +17,15 @@ execute if score 遊戲開始 temp matches 0 run execute if entity @a[scores={bo
 execute if score 遊戲開始 temp matches 0 run execute if entity @a[scores={cobweb=1..}] run scoreboard players reset @a cobweb
 
 #書本偵測
-execute unless score 偵測地圖 temp = 地圖 temp if score 地圖 temp matches 1 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"地圖 選擇為",{"text":"學校","color":"aqua"},"\n",{"text":"且任務时间已被 重新預設為3分鐘","color":"red"}]
+execute unless score 偵測地圖 temp = 地圖 temp if score 地圖 temp matches 1 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"地圖 選擇為",{"text":"学校","color":"aqua"},"\n",{"text":"且任務时间已被 重新預設為3分鐘","color":"red"}]
 execute unless score 偵測地圖 temp = 地圖 temp if score 地圖 temp matches 2 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"地圖 選擇為",{"text":"商場","color":"aqua"},"\n",{"text":"且任務时间已被 重新預設為4分鐘","color":"red"}]
 execute unless score 偵測地圖 temp = 地圖 temp if score 地圖 temp matches 3 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"地圖 選擇為",{"text":"城市","color":"aqua"},"\n",{"text":"且任務时间已被 重新預設為5分鐘","color":"red"}]
 execute unless score 偵測地圖 temp = 地圖 temp run scoreboard players operation 偵測地圖 temp = 地圖 temp
 
-execute unless score 偵測初始道具 temp = 初始道具 temp if score 初始道具 temp matches 0 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"初始道具：",{"text":"關閉","color":"red"}]
+execute unless score 偵測初始道具 temp = 初始道具 temp if score 初始道具 temp matches 0 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"初始道具：",{"text":"关闭","color":"red"}]
 execute unless score 偵測初始道具 temp = 初始道具 temp if score 初始道具 temp matches 1 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"初始道具：",{"text":"開啟","color":"green"}]
 execute unless score 偵測初始道具 temp = 初始道具 temp run scoreboard players operation 偵測初始道具 temp = 初始道具 temp
-execute unless score 偵測隨機任務 temp = 隨機任務 temp if score 隨機任務 temp matches 0 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"隨機任務：",{"text":"關閉","color":"red"}]
+execute unless score 偵測隨機任務 temp = 隨機任務 temp if score 隨機任務 temp matches 0 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"隨機任務：",{"text":"关闭","color":"red"}]
 execute unless score 偵測隨機任務 temp = 隨機任務 temp if score 隨機任務 temp matches 1 run tellraw @a ["",{"text":"[系統]","bold":true,"color":"gold"},"隨機任務：",{"text":"開啟","color":"green"}]
 execute unless score 偵測隨機任務 temp = 隨機任務 temp run scoreboard players operation 偵測隨機任務 temp = 隨機任務 temp
 #開場遊戲 0(抽鍊條) 1(20秒) 2(掷骰子) 3(体内计时)

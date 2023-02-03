@@ -1,8 +1,8 @@
-execute if entity @a[tag=h1] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"監獄旁","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
-execute if entity @a[tag=h2] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"紫區二樓玻璃窗","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
-execute if entity @a[tag=h3] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"綠區二樓玻璃窗","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
-execute if entity @a[tag=h4] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"藍區二樓玻璃窗","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
-execute if entity @a[tag=h5] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"粉綠區二樓 安全門裡","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
+execute if entity @a[tag=h1] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"监狱旁","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
+execute if entity @a[tag=h2] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"紫区二楼玻璃窗","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
+execute if entity @a[tag=h3] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"绿区二楼玻璃窗","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
+execute if entity @a[tag=h4] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"蓝区二楼玻璃窗","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
+execute if entity @a[tag=h5] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"粉区二楼 安全门里","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
 execute if entity @a[tag=h6] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"開場遊戲旁","bold":true,"color":"red"},{"text":"獵人箱的獵人 已被放出","bold":true}]
 
 team join hunter @a[tag=h1]

@@ -8,6 +8,6 @@ scoreboard players set m15_tick temp 0
 execute if score 歸零 temp matches 1 run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},{"text":"任務失敗 獎金歸零重計","color":"red"}]
 execute if score 歸零 temp matches 1 run scoreboard players set 獎金 money 0
 advancement revoke @a only adventure/trade
-kill @e[name=NPC]
+kill @e[name="NPC"]
 scoreboard players set 任務時限 time -1
 schedule clear game:mission/15/go

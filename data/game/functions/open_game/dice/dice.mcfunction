@@ -1,4 +1,4 @@
-summon armor_stand ~ ~ ~ {Tags:[numrandom],NoGravity:1,Invisible:1,CustomName:"{\"text\":\"Random\"}"}
+summon armor_stand ~ ~ ~ {Tags:[numrandom],NoGravity:1,Invisible:1,CustomName:'{"text":"Random"}'}
 execute store result score 投掷 temp run data get entity @e[tag=numrandom,limit=1,sort=nearest] UUID[1] 1
 kill @e[tag=numrandom]
 scoreboard players operation 投掷 temp %= D06 temp

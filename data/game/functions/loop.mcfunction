@@ -78,7 +78,7 @@ execute if entity @a[team=run,scores={die=1}] run scoreboard players remove 逃�
 execute as @a[team=run,scores={die=1}] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},"遭到確保 剩餘",{"score":{"name":"逃亡人數","objective":"new"}},"人"]
 execute as @a[team=out,scores={die=1}] run tellraw @a ["",{"text":"[简讯]","bold":true,"color":"gold"},{"selector":"@s"},{"text":"遭到確保 失去复活机会","color":"red"}]
 execute if entity @a[team=run,tag=m18_g,scores={die=1}] run scoreboard players operation 額外 money += 背叛 money
-execute if entity @a[team=run,tag=m18_g,scores={die=1}] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},"背叛者通報成功"," 背叛者活到最後 累計可額外获得",{"score":{"name":"額外","objective":"money"},"bold":true,"color":"gold"},{"text":"元","bold":true,"color":"gold"}]
+execute if entity @a[team=run,tag=m18_g,scores={die=1}] run tellraw @a ["",{"text":"[通知]","bold":true,"color":"gold"},"背叛者通報成功"," 背叛者活到最后 累計可額外获得",{"score":{"name":"額外","objective":"money"},"bold":true,"color":"gold"},{"text":"元","bold":true,"color":"gold"}]
 team join out @a[scores={die=1}]
 execute as @a[scores={die=1}] run function game:out_reset
 scoreboard players reset @a die
@@ -125,11 +125,11 @@ scoreboard players operation 隐形 shop = 賣隐形 temp
 scoreboard players operation 隐形 shop *= D10000 temp
 scoreboard players operation 網子 shop = 賣網子 temp
 scoreboard players operation 網子 shop *= D10000 temp
-execute as @a[scores={shop=1}] if score @s money >= 加速 shop run give @s minecraft:feather{display:{Name:'[{"text":"","italic":false},{"text":"加速"}]',Lore:['[{"text":"","italic":false},{"text":"Q鍵(丢弃)後,获得速度四 10秒"}]']}} 1
+execute as @a[scores={shop=1}] if score @s money >= 加速 shop run give @s minecraft:feather{display:{Name:'[{"text":"","italic":false},{"text":"加速"}]',Lore:['[{"text":"","italic":false},{"text":"Q鍵(丢弃)后,获得速度四 10秒"}]']}} 1
 execute as @a[scores={shop=1}] if score @s money >= 加速 shop run scoreboard players operation @s money -= 加速 shop
-execute as @a[scores={shop=2}] if score @s money >= 隐形 shop run give @s minecraft:bone{display:{Name:'[{"text":"","italic":false},{"text":"隐形"}]',Lore:['[{"text":"","italic":false},{"text":"Q鍵(丢弃)後,获得隐形+无敌 10秒"}]']}} 1
+execute as @a[scores={shop=2}] if score @s money >= 隐形 shop run give @s minecraft:bone{display:{Name:'[{"text":"","italic":false},{"text":"隐形"}]',Lore:['[{"text":"","italic":false},{"text":"Q鍵(丢弃)后,获得隐形+无敌 10秒"}]']}} 1
 execute as @a[scores={shop=2}] if score @s money >= 隐形 shop run scoreboard players operation @s money -= 隐形 shop
-execute as @a[scores={shop=3}] if score @s money >= 網子 shop run give @s minecraft:cobweb{display:{Name:'[{"text":"","italic":false},{"text":"網子"}]',Lore:['[{"text":"","italic":false},{"text":"Q鍵(丢弃)後,離自己最近的獵人"}]','[{"text":"","italic":false},{"text":"會暫停行動7秒(失明+停止+虛弱)"}]','[{"text":"","italic":false},{"text":"範圍為自己半徑10格以內"}]']}} 1
+execute as @a[scores={shop=3}] if score @s money >= 網子 shop run give @s minecraft:cobweb{display:{Name:'[{"text":"","italic":false},{"text":"網子"}]',Lore:['[{"text":"","italic":false},{"text":"Q鍵(丢弃)后,離自己最近的獵人"}]','[{"text":"","italic":false},{"text":"會暫停行動7秒(失明+停止+虛弱)"}]','[{"text":"","italic":false},{"text":"範圍為自己半徑10格以內"}]']}} 1
 execute as @a[scores={shop=3}] if score @s money >= 網子 shop run scoreboard players operation @s money -= 網子 shop
 scoreboard players reset @a shop
 scoreboard players enable @a shop
